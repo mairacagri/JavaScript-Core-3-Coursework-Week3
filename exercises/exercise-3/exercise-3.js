@@ -6,3 +6,6 @@ let order = [
   { itemName: "Hot Coffee", quantity: 2, unitPrice: 1.0 },
   { itemName: "Hash Brown", quantity: 4, unitPrice: 0.4 },
 ];
+
+//Log each individual item to the console.
+// - Log the total cost of the order to the console.
