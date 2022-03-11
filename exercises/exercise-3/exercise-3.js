@@ -9,3 +9,15 @@ let order = [
 
 //Log each individual item to the console.
 // - Log the total cost of the order to the console.
+function printOrder(newArray) {
+  let total = 0;
+
+  console.log("Q Item Total");
+  newArray.forEach(({itemName, quantity, unitPrice}) => {
+    total += unitPrice;
+    console.log(`${quantity} ${itemName} ${unitPrice}`);
+  });
+    console.log(`Total: ${total}`);
+}
+
+printOrder(order);
