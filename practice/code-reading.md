@@ -15,7 +15,8 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
-
+on line 1 x is a global variable and we can use also use it insede function f1
+on line 4 x is local variable that can be used only inside {} of f1 function 
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+the output will be undefined since line 30 y is a local varibale and lives inside {}
 
 ## Question 3
 
